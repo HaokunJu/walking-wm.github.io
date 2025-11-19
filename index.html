@@ -216,27 +216,19 @@
       </div>
       <div class="works-list">
         <!-- TODO: 替换为你们实验室的相关工作链接 -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03363.pdf" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 1</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2024</span>
+            <h5>PreLAR: World Model Pre-training with Learnable Action Representation</h5>
+            <p>Pretraining the world model using the action-free trajectory data.</p>
+            <span class="work-venue">ECCV 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10879565" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>eLabrador: A Wearable Navigation System for Visually Impaired Individuals</h5>
+            <p>A wearable navigation system for visually impaired individuals using visual perception. It is also the prototype system of our work.</p>
+            <span class="work-venue">IEEE TASE 2025</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -256,17 +248,17 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: 如果之后有个人主页，把 # 换成真实链接 -->
               <span class="author-block">
-                <a href="#" target="_blank">Haokun Ju</a>,</span>
+                <a href="https://vipl.ict.ac.cn/edu/student/doctoral/202410/t20241028_249524.html" target="_blank">Haokun Ju</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Lixuan Zhang</a>,</span>
+                <a href="https://lxzhang.me/" target="_blank">Lixuan Zhang</a>,</span>
               <span class="author-block">
                 <a href="#" target="_blank">Xiangyu Cao</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Meina Kan</a>,</span>
+                <a href="https://vipl.ict.ac.cn/people/mnkan/" target="_blank">Meina Kan</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Shiguang Shan</a>,</span>
+                <a href="https://vipl.ict.ac.cn/people/sgshan/" target="_blank">Shiguang Shan</a>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Xilin Chen</a>
+                <a href="https://vipl.ict.ac.cn/people/xlchen/" target="_blank">Xilin Chen</a>
               </span>
             </div>
 
@@ -661,7 +653,7 @@
         </div>
         <p class="has-text-centered is-size-10 has-text-grey">
           <strong>Table 1.</strong>
-          Comparison of path-following approaches under static map. <strong>Bold</strong> indicates the best performance for each metric. ``EM'' stands for the eye-masked scenario, while ``VI'' stands for the visible impaired.
+          Comparison of path-following approaches under static map. <strong>Bold</strong> indicates the best performance for each metric. ``EM'' stands for the eye-masked scenario, while ``VI'' stands for the visually impaired.
         </p>
 
         <!-- Table 2: COV of speed (synthetic but plausible values) -->
@@ -711,27 +703,16 @@
 
       <!-- ================== FIGURES: OUTDOOR ROUTE LAYOUTS ================== -->
       <div class="columns is-vcentered is-multiline">
-        <div class="column is-half">
-          <figure class="image indoor-fig">
+        <div class="column is-full">
+          <figure class="image outdoor-fig">
             <!-- TODO: replace with your Route 1 layout figure (e.g., Fig. 4 left) -->
-            <img src="static/images/outdoor_route1.png"
+            <img src="static/images/map_outdoor_rebuttal_anonymous.png"
                  alt="Layout of Outdoor Route 1 with key street views">
           </figure>
           <p class="has-text-centered is-size-10 has-text-grey">
-            (a) Layout of Route&nbsp;1 (240&nbsp;m), including a 90&deg; turn and mostly sidewalk segments with few moving obstacles.
+            (a) Layouts of Route 1(240m) and Route 2(300m), with key street views marked along each path.
           </p>
         </div>
-        <div class="column is-half">
-          <figure class="image indoor-fig">
-            <!-- TODO: replace with your Route 2 layout figure (e.g., Fig. 4 right) -->
-            <img src="static/images/outdoor_route2.png"
-                 alt="Layout of Outdoor Route 2 with key street views">
-          </figure>
-          <p class="has-text-centered is-size-10 has-text-grey">
-            (b) Layout of Route&nbsp;2 (≈300&nbsp;m), with three tactile paving interruptions and more moving obstacles such as vehicles and pedestrians.
-          </p>
-        </div>
-      </div>
 
       <!-- ================== TABLE: OUTDOOR PERFORMANCE ================== -->
       <div class="content" style="margin-top: 2rem;">
@@ -792,11 +773,11 @@
           <div class="column is-two-thirds">
             <figure class="image indoor-fig">
               <!-- TODO: replace with your Likert-bar plot (e.g., Fig. 5) -->
-              <img src="static/images/likert_outdoor.png"
+              <img src="static/images/subject_plot_rebuttal-1.png"
                    alt="Likert-scale ratings of safety, cognitive ease, and helpfulness for Pure Pursuit and Walking-WM">
             </figure>
             <p class="has-text-centered is-size-10 has-text-grey">
-              (c) Subjective ratings of safety, cognitive ease, and helpfulness for Pure Pursuit and Walking-WM,
+              (b) Subjective ratings of safety, cognitive ease, and helpfulness for Pure Pursuit and Walking-WM,
               using a 7-point Likert scale (7 = very safe / very easy / very helpful). Bars represent mean ratings with standard error.
             </p>
           </div>
@@ -809,43 +790,34 @@
 
         <div class="table-container">
           <table class="table is-striped is-fullwidth is-bordered is-narrow">
-            <thead>
+            <!-- <thead>
               <tr>
-                <th>Participant</th>
-                <th>Dominance score (Walking-WM vs Pure Pursuit)</th>
+                <th></th>
+                <th></th>
               </tr>
-            </thead>
+            </thead> -->
             <tbody>
               <tr>
+                <td>Participant</td>
                 <td>V5</td>
-                <td>-1</td>
-              </tr>
-              <tr>
                 <td>V6</td>
-                <td>-1</td>
-              </tr>
-              <tr>
                 <td>V7</td>
-                <td>0</td>
-              </tr>
-              <tr>
                 <td>V8</td>
-                <td>-2</td>
-              </tr>
-              <tr>
                 <td>M5</td>
-                <td>-1</td>
-              </tr>
-              <tr>
                 <td>M6</td>
-                <td>-2</td>
-              </tr>
-              <tr>
                 <td>M7</td>
-                <td>-2</td>
+                <td>M8</td>
+                
               </tr>
               <tr>
-                <td>M8</td>
+                <td>Dominance score (Walking-WM vs Pure Pursuit)</td>
+                <td>-1</td>
+                <td>-1</td>
+                <td>0</td>
+                <td>-2</td>
+                <td>-1</td>
+                <td>-2</td>
+                <td>-2</td>
                 <td>-1</td>
               </tr>
             </tbody>
@@ -862,15 +834,194 @@
   </div>
 </section>
 
-<!-- Video carousel -->
-<section class="hero is-small">
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Additional Demos</h2>
-      <div id="results-carousel" class="carousel results-carousel">
+      <h2 class="title is-3 has-text-centered">Open-Loop Ablation Study</h2>
+      <p class="subtitle has-text-centered">
+        Ablation on the Walking world model's training, highlighting the effect of the learning-based method and the usage of large amount of unannotated data.
+      </p>
+
+      <!-- ================== OVERALL ABLATION TABLE ================== -->
+      <div class="content" style="margin-top: 1.5rem;">
+        <h3 class="title is-4">Comparison between different model configurations in open-loop experiments</h3>
+        <div class="table-container">
+          <table class="table is-striped is-fullwidth is-bordered is-narrow">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Pre-training</th>
+                <th>Prediction ADE (m) &#8595;</th>
+                <th>Prediction FDE (m) &#8595;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hybrid model</td>
+                <td>No</td>
+                <td>0.91 ± 0.10</td>
+                <td>1.69 ± 0.21</td>
+              </tr>
+              <tr>
+                <td>World model w/o pre-train</td>
+                <td>No</td>
+                <td> 0.44 ± 0.04</td>
+                <td> 0.82 ± 0.09</td>
+              </tr>
+              <tr>
+                <td>World model w/ pre-train (ours)</td>
+                <td>Yes</td>
+                <td><strong>0.39 ± 0.03</strong></td>
+                <td><strong>0.73 ± 0.07</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="has-text-centered is-size-10 has-text-grey">
+          <strong>Table 3.</strong>
+          Ablation results on different model variants. Hybrid model, a hand-crafted dynamics model adapted from the Bicycle Model with discrete “turn left / go straight / turn right” commands, assuming constant speed, a fixed steering angle and a fixed turning duration;
+          “World model w/o pre-train” trains the world model only on action-annotated data; 
+          “World model w/ pre-train” first pre-trains on large-scale free-walking data and is then fine-tuned on user-specific action-annotated data.
+        </p>
+      </div>
+
+      <!-- ================== THREE COMPARISON FIGURES ================== -->
+      <div class="content" style="margin-top: 2rem;">
+        <h3 class="title is-4">What does the world model adds to the planning compared to the basic model (hybrid model)?</h3>
+        <p class="is-size-10 has-text-grey">
+          We conducted an experimental test using the above hybrid model on our collected annotated walking
+          data. The test results are shown in the Table 3. These results demonstrate that the hybrid model
+          produces high prediction errors and performs worse than world model. To investigate what our world
+          model learned beyond this basic baseline, we provide some visual comparisons of representative
+          prediction outcomes in figures as below to determine what the world model has actually learned, with detailed
+          analysis as below:
+        </p>
+        <div class="columns is-vcentered is-multiline">
+          <div class="column is-one-third">
+            <figure class="image indoor-fig">
+              <!-- TODO: replace with your hybrid analysis figure -->
+              <img src="static/images/ex4.png"
+                   alt="Periodic variations in lateral position during go straight motion">
+            </figure>
+            <p class="has-text-centered is-size-10 has-text-grey">
+              (a) Periodic variations in lateral position during go straight motion
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <figure class="image indoor-fig">
+              <!-- TODO: replace with your world model (no pre-train) analysis figure -->
+              <img src="static/images/ex5.png"
+                   alt=" Steering compensation due to extended reaction time">
+            </figure>
+            <p class="has-text-centered is-size-10 has-text-grey">
+              (b) Steering compensation due to extended reaction time
+            </p>
+          </div>
+          <div class="column is-one-third">
+            <figure class="image indoor-fig">
+              <!-- TODO: replace with your world model (pre-train) analysis figure -->
+              <img src="static/images/ex6.png"
+                   alt="Inconsistent steering angle within a short period">
+            </figure>
+            <p class="has-text-centered is-size-10 has-text-grey">
+              (c) Inconsistent steering angle within a short period
+            </p>
+          </div>
+        </div>
+
+        <p class="is-size-10 has-text-grey" style="margin-top: 0.75rem;">
+          Compared with mechanical systems (such as cars), human walking exhibits several unique characteristics, as illustrated above. When walking straight, a person’s center of mass oscillates periodically; during turning, due to reaction delays, a person may continue turning even after a “go straight” command has been issued; and within a very short time window, identical commands can still lead to different responses. The world model, being learned from data, is able to capture and model these human walking characteristics, whereas the basic model fails to do so, resulting in larger prediction errors.
+        </p>
+      </div>
+
+      <!-- ================== WALKING TRAJECTORIES (HYBRID VS WORLD MODEL) ================== -->
+      <div class="content" style="margin-top: 2rem;">
+        <h3 class="title is-4">Does extending the planning horizon yield better results for the basic model?</h3>
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <figure class="image indoor-fig">
+              <!-- TODO: replace with your walking trajectory comparison figure -->
+              <img src="static/images/static_map_2.png"
+                   alt="Walking trajectories under different methods in new static map">
+            </figure>
+            <p class="has-text-centered is-size-10 has-text-grey">
+              (d) Map for the extra static map experiment and a user’s walking trajectory using a basic hybrid model with planning horizon of 10 and Walking-WM with planning horizon of 5.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================== TABLE: WALKING TIME & COMMAND FREQUENCY ================== -->
+      <div class="content" style="margin-top: 1.5rem;">
+        <div class="table-container">
+          <table class="table is-striped is-fullwidth is-bordered is-narrow">
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>Walking time (s) &#8595;</th>
+                <th>Command frequency (/m) &#8595;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pure Pursuit</td>
+                <td>84.5</td>
+                <td>0.62</td>
+              </tr>
+              <tr>
+                <td>Hybrid Model (H=5)</td>
+                <td>72.1</td>
+                <td>0.52</td>
+              </tr>
+              <tr>
+                <td>Hybrid model (H=10)</td>
+                <td>99.1</td>
+                <td>0.71</td>
+              </tr>
+              <tr>
+                <td>Walking-WM (H=5, ours)</td>
+                <td><strong>66.3</strong></td>
+                <td><strong>0.46</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="has-text-centered is-size-10 has-text-grey">
+          <strong>Table 4.</strong>
+          Results for the extra static map experiment.
+        </p>
+        <p class="has-text-centered is-size-10 has-text-grey">
+          To verify this statement, we conducted a new set of static map experiments. We deployed the map shown in Figure (d), which is more complex than the original static map and contains more obstacles.
+          In this experiment, the hybrid model
+          with a planning horizon of 10 resulted in the longest average completion time and highest command
+          frequency, whereas the world model achieved the shortest time and lowest frequency. The poorer
+          performance of the hybrid model with the longest horizon was mainly due to large prediction errors,
+          which caused substantial deviations between the user’s actual trajectory and the system’s predictions,
+          often bringing the user dangerously close to obstacles in our complex static map. To guide the user
+          back to safety, the system issued more turning commands for obstacle avoidance.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Video carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Real-world Walking Test Video</h2>
+      <p class="subtitle has-text-centered">
+        Demonstration videos of our Walking world model in real-world walking tests.
+      </p>
+      <video poster="" id="outdoor-video" controls muted loop height="100%" preload="metadata" style="display: block; margin: 0 auto; max-width: 100%;">
+        <source src="static/videos/real-world_video.mp4" type="video/mp4">
+      </video>
+      <!-- <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <!-- TODO: 不同场景 demo 视频 -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+          TODO: 不同场景 demo 视频 -->
+          <!-- <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
             <source src="static/videos/carousel1.mp4" type="video/mp4">
           </video>
         </div>
@@ -884,7 +1035,7 @@
             <source src="static/videos/carousel3.mp4" type="video/mp4">
           </video>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -921,7 +1072,7 @@
   number  = {Y},
   pages   = {1--8},
   note    = {To appear},
-  url     = {https://YOUR_USERNAME.github.io/walking-world-model}
+  url     = {https://haokunju.github.io/walking-world-model}
 }</code></pre>
   </div>
 </section>

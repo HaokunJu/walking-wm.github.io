@@ -626,6 +626,19 @@ code {
   display: block;   /* 确保 margin: auto 生效 */
 }
 
+.indoor-fig img {
+  max-width: 70%;   /* 改成 60%, 50% 都可以 */
+  height: auto;
+  margin: 0 auto;   /* 居中 */
+  display: block;   /* 确保 margin: auto 生效 */
+}
+.outdoor-fig img {
+  max-width: 50%;   /* 改成 60%, 50% 都可以 */
+  height: auto;
+  margin: 0 auto;   /* 居中 */
+  display: block;   /* 确保 margin: auto 生效 */
+}
+
 /* Mobile Responsive Improvements */
 @media screen and (max-width: 768px) {
   .hero-body {
